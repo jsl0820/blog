@@ -12,11 +12,13 @@ description: 本文是关于 hexo + gitpage 静态博客的搭建，还有一些
 首先我已默认你已经注册了 [**GayHub**](https://github.com). 没有的大胸弟自行点击注册哦。:v:
 
 
-### 配置GitPage
+## 配置GitPage
 1. 首先登陆GitHub新建一个项目
 ![new-repo](hello-world/new-repo.jpg)
-2. 
-
+2. 填写以你的用户名命名的仓库 
+![new-blog](hello-world/new-blog.jpg)
+3. 点击**setting**, 往下拉到 **GitHub Pages** 你可以看到, 根据提示我们首先添加一些内容到这个仓库
+![git-page](hello-world/git-page.jpg)
 
 ``` bash
 $ hexo new "My New Post"
