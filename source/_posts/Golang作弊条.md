@@ -3,6 +3,7 @@ title: Golang作弊条
 date: 2019-09-03 16:06:54
 tags:
 cat: golang
+description: 好记性不如烂笔头。这篇文章是记录一些我常用的Golang的命令和非常容易忘记的。开发的时候速查之用。
 ---
 
 ## 占位符
@@ -51,6 +52,7 @@ func main (){
 占位符 | 说明 | 举例 | 输出 
 ---|---|------|---
 %p|十六进制,前缀Ox| fmt.Printf("%p", &people)|0xc000052400
+
 
 
 

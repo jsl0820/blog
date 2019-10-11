@@ -71,7 +71,7 @@ now.After(timeEnd)  //之后
  h4 := now.Add(h2 * 8) //8小时之前     
  ```
 
-## 定时器相关
+## 定时相关
 ### time.Sleep(d) 
 ```go
 //暂停一段时间
@@ -80,8 +80,8 @@ time.Sleep(5 * time.Second)
 fmt.Println("javelin")
 ```
 
-### golang的定时器实现有好多方法
-
+### golang的定时器
+创建定时器有多种方法， 他们的底层实现都指向一个叫==timer==的结构体
 1. NewTimer(d Duration) 
 ```go
 d  := time.Duration(2) * time.Second 
